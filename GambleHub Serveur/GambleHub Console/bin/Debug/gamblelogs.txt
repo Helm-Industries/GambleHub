@@ -1,0 +1,61 @@
+[12/07/2018 22:17:50] Serveur en démarrage...
+[12/07/2018 22:17:51] Serveur démarré, prêt à recevoir des connexions
+[12/07/2018 22:17:51] Démarrage du Bot Discord...
+Bot Discord démarré
+[12/07/2018 22:19:50] Serveur en démarrage...
+[12/07/2018 22:19:51] Serveur démarré, prêt à recevoir des connexions
+[12/07/2018 22:19:51] Démarrage du Bot Discord...
+Bot Discord démarré
+[12/07/2018 22:20:38] Serveur en démarrage...
+[12/07/2018 22:20:40] Serveur démarré, prêt à recevoir des connexions
+[12/07/2018 22:20:40] Démarrage du Bot Discord...
+Bot Discord démarré
+[12/07/2018 22:23:00] Serveur en démarrage...
+[12/07/2018 22:23:02] Serveur démarré, prêt à recevoir des connexions
+[12/07/2018 22:23:02] Démarrage du Bot Discord...
+Bot Discord démarré
+[12/07/2018 22:41:05] Serveur en démarrage...
+[12/07/2018 22:41:06] Serveur démarré, prêt à recevoir des connexions
+[12/07/2018 22:41:06] Démarrage du Bot Discord...
+Bot Discord démarré
+[13/07/2018 00:03:51] Serveur en démarrage...
+[13/07/2018 00:03:53] Serveur démarré, prêt à recevoir des connexions
+[13/07/2018 00:03:53] Démarrage du Bot Discord...
+Bot Discord démarré
+[13/07/2018 00:33:58] Serveur en démarrage...
+[13/07/2018 00:33:59] Serveur démarré, prêt à recevoir des connexions
+[13/07/2018 00:33:59] Démarrage du Bot Discord...
+Bot Discord démarré
+Received : AuthRequest:|mail|Mot de passe
+[13/07/2018 00:34:16] Sent : Connexion refusée
+Received : AuthRequest:|mail@gmail.com|alexandre
+[13/07/2018 00:34:22] Sent : Connexion acceptée
+Received : Nouvelle connexion
+Received : PlayerInfoRequest:|mail@gmail.com
+[13/07/2018 00:34:26] Sent : PlayerInfo:|dqdqd|azqdqdz|homme|16 ans|0|mail@gmail.com|50 Crédits
+Received : PlayerInfoRequest:|mail@gmail.com
+[13/07/2018 00:35:14] Sent : PlayerInfo:|dqdqd|azqdqdz|homme|16 ans|0|mail@gmail.com|50 Crédits
+Received : PlayerInfoRequest:|mail@gmail.com
+[13/07/2018 00:35:23] Sent : PlayerInfo:|dqdqd|azqdqdz|homme|16 ans|0|mail@gmail.com|50 Crédits
+Received : PlayerInfoRequest:|mail@gmail.com
+[13/07/2018 00:36:08] Sent : PlayerInfo:|dqdqd|azqdqdz|homme|16 ans|0|mail@gmail.com|50 Crédits
+Received : PlayerInfoRequest:|mail@gmail.com
+[13/07/2018 00:36:18] Sent : PlayerInfo:|dqdqd|azqdqdz|homme|16 ans|0|mail@gmail.com|50 Crédits
+Received : PlayerInfoRequest:|mail@gmail.com
+[13/07/2018 00:36:27] Sent : PlayerInfo:|dqdqd|azqdqdz|homme|16 ans|0|mail@gmail.com|50 Crédits
+Received : Nouvelle deconnexion
+Received : AuthRequest:|mail@gmail.com|alexandre
+[13/07/2018 00:44:34] Serveur en démarrage...
+[13/07/2018 00:44:36] Serveur démarré, prêt à recevoir des connexions
+[13/07/2018 00:44:36] Démarrage du Bot Discord...
+Bot Discord démarré
+Received : AuthRequest:|E-mail|Mot de passe
+[13/07/2018 00:44:38] Sent : Connexion refusée
+Received : AuthRequest:|mail@gmail.com|alexandre
+[13/07/2018 00:44:44] Sent : Connexion acceptée
+Received : Nouvelle connexion
+Received : Nouvelle deconnexion
+[13/07/2018 16:59:25] Serveur en démarrage...
+[13/07/2018 16:59:26] Serveur démarré, prêt à recevoir des connexions
+[13/07/2018 16:59:26] Démarrage du Bot Discord...
+Bot Discord démarré

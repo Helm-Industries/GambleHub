@@ -1,0 +1,58 @@
+c:\users\alex\source\repos\GambleHub Console\GambleHub Console\bin\Debug\GambleHub Console.exe.config
+c:\users\alex\source\repos\GambleHub Console\GambleHub Console\bin\Debug\GambleHub Console.exe
+c:\users\alex\source\repos\GambleHub Console\GambleHub Console\bin\Debug\GambleHub Console.pdb
+c:\users\alex\source\repos\GambleHub Console\GambleHub Console\obj\Debug\GambleHub Console.csprojAssemblyReference.cache
+c:\users\alex\source\repos\GambleHub Console\GambleHub Console\obj\Debug\GambleHub Console.csproj.CoreCompileInputs.cache
+c:\users\alex\source\repos\GambleHub Console\GambleHub Console\obj\Debug\GambleHub Console.exe
+c:\users\alex\source\repos\GambleHub Console\GambleHub Console\obj\Debug\GambleHub Console.pdb
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\GambleHub Console.exe.config
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\GambleHub Console.exe
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\GambleHub Console.pdb
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\MySql.Data.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Google.Protobuf.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\MySql.Data.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\obj\Debug\GambleHub Console.csprojAssemblyReference.cache
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\obj\Debug\GambleHub Console.csproj.CoreCompileInputs.cache
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\obj\Debug\GambleHub Console.csproj.CopyComplete
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\obj\Debug\GambleHub Console.exe
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\obj\Debug\GambleHub Console.pdb
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Commands.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Core.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Rest.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Rpc.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Webhook.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.WebSocket.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Newtonsoft.Json.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.AppContext.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Collections.Immutable.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Console.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Globalization.Calendars.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Interactive.Async.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.IO.Compression.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.IO.FileSystem.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Net.Http.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Net.Sockets.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Commands.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Core.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Rest.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Rpc.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.Webhook.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Discord.Net.WebSocket.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\Newtonsoft.Json.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Collections.Immutable.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub Serveur\GambleHub Console\bin\Debug\System.Interactive.Async.xml
