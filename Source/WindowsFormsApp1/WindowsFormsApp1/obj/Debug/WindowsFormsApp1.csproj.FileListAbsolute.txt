@@ -1,0 +1,167 @@
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Alekss\Documents\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Alekss\Desktop\Beta\Nouveau dossier\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\Alex\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form7.resources
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Thomas\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form7.resources
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Alex\Desktop\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+Y:\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+Y:\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+Y:\Projets\[VisualStudio]\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form7.resources
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Projets\[VisualStudio]\GambleHub\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form7.resources
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

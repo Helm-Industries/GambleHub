@@ -1,0 +1,29 @@
+Jeux : 
+- Poker
+- BlackJack
+- CoinFlip
+- Démineur : (2 joueurs qui enlèvent une case chacun leur tour 4x4)
+- Roulette : (20 joueurs max qui rejoignent + le pari est haut + il a de chance de gagner)
+
+______________________________
+
+Protocol TCP échange info client / serveur :
+- Nombre de joueurs connecté en temps réel // fait
+- Chat intégré (jeu ou non, à décider)
+- Sécurité augmentée (vérification de connexion avec requêtes)
+- Console de l'activité du logiciel en live (Avec logs) // Semi fait
+- Control total du serveur // Structure prête
+- Requête connexion par tcp :
+Client : Send message contenant username et mot de passe au serveur
+Serveur : Execute une query de verification et retourne au client oui / non
+-> Pas d'identifiants sql dans le client en cas de décompilation
+
+______________________________
+
+A faire:
+Régler client accepttcp jsp quoi crash du logiciel
+ajouter shop en tcp
+ajouter matchmaking tout ça tcp
+
+
+

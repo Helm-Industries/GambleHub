@@ -1,0 +1,33 @@
+ Console.ForegroundColor = ConsoleColor.Cyan;
+            int refresh = 1;
+            int joueurs = 0;
+            Console.WriteLine("Serveur en démarrage...");
+            TcpListener listen = new TcpListener(IPAddress.Any, 9856);
+            listen.Start();
+        
+
+
+
+            Console.WriteLine("Serveur démarré, prêt à recevoir des connexions");
+            while (refresh == 1)
+            {
+
+                Console.Title = "GAMBLEHUB - SERVEUR | PORT 9856 | JOUEURS EN LIGNE : " + joueurs.ToString();
+
+                TcpClient client = listen.AcceptTcpClient();
+                NetworkStream stream = client.GetStream();
+                byte[] buffer = new byte[client.ReceiveBufferSize];
+                int data = stream.Read(buffer, 0, client.ReceiveBufferSize);
+                string msg = Encoding.Unicode.GetString(buffer, 0, data);
+                Console.WriteLine("Received : " + msg);
+                if (msg.Contains("Nouvelle connexion"))
+                {
+                    joueurs++;
+                }
+                if (msg.Contains("Nouvelle deconnexion"))
+                {
+                    joueurs--;
+                }
+
+
+// Doit être éxécuté en admin

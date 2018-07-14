@@ -1,0 +1,48 @@
+          if (prenom.Text.Length == 0 || prenom.Text == "Prénom")
+            {
+                prenom.BorderColorIdle = Color.Red;
+                prenom.BorderColorFocused = Color.Red;
+                if (nom.Text.Length == 0 || nom.Text == "Nom")
+                {
+                    nom.BorderColorIdle = Color.Red;
+                    nom.BorderColorFocused = Color.Red;
+                    if (email.Text.Length == 0 || email.Text == "E-mail")
+                    {
+                        email.BorderColorIdle = Color.Red;
+                        email.BorderColorFocused = Color.Red;
+                        if (ages.Text.Length == 0 || ages.Text == "Age") //ajouter chiffre seulement
+                        {
+                            ages.BorderColorIdle = Color.Red;
+                            ages.BorderColorFocused = Color.Red;
+                            if (homme.Checked == false && femme.Checked == false)
+                            {
+                                homme.BackColor = Color.Red;
+                                femme.BackColor = Color.Red;
+                                if (mdp.Text.Length == 0 || mdp.Text == "Mot de passe")
+                                {
+                                    mdp.BorderColorIdle = Color.Red;
+                                    mdp.BorderColorFocused = Color.Red;
+                                    if (pseudo.Text.Length == 0 || pseudo.Text == "Pseudo")
+                                    {
+                                        pseudo.BorderColorIdle = Color.Red;
+                                        pseudo.BorderColorFocused = Color.Red;
+                                    }
+                                    else
+                                    {
+                                        MySqlConnection con = new MySqlConnection("datasource=mysql-gamblehuboff.alwaysdata.net; port=3306;Initial Catalog='gamblehuboff_db';username=158469;password=K8LhE283et");
+                                        con.Open();
+                                        string reg = "INSERT INTO users(prenom, nom, email, age, sexe, password, vip, ban, balance, username) VALUES('" + prenom.Text + "','" + nom.Text + "','" + email.Text + "','" + ages.Text + "', '" + sexes + "', '" + mdp.Text + "', '" + "0" + "','" + "0" + "', '" + "0" + "', '" + pseudo.Text + "')";
+                                        MySqlCommand cmd = new MySqlCommand(reg, con);
+                                        cmd.ExecuteNonQuery();
+                                        //bon
+                                        this.Hide();
+                                        Form5 form5 = new Form5();
+                                        form5.ShowDialog();
+                                        this.Close();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }

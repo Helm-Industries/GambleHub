@@ -1,0 +1,67 @@
+using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+
+namespace register_test
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+
+
+        MySqlConnection connection = new MySqlConnection("datasource=mysql-gamblehuboff.alwaysdata.net; port=3306;Initial Catalog='gamblehuboff_dev';username=158469;password=K8LhE283et");
+
+        MySqlDataAdapter adapter;
+
+        DataTable table = new DataTable();
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            adapter = new MySqlDataAdapter("SELECT `username`, `password` FROM `users` WHERE `username` = '" + textBox_username.Text + "' AND `password` = '" + textBox_password.Text + "'", connection);
+            adapter.Fill(table);
+
+            if (table.Rows.Count <= 0)
+            {
+          
+                label_Message.ForeColor = Color.Red;
+                label_Message.Text = "Username Or Password Are Invalid";
+           
+            }
+            else
+            {
+             
+                label_Message.ForeColor = Color.Green;
+                label_Message.Text = "Login Successfully";
+              
+            }
+
+            table.Clear();
+        }
+
+
+
+
+
+
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+    
+
