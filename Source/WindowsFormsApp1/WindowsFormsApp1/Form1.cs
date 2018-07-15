@@ -108,13 +108,13 @@ namespace WindowsFormsApp1
             InitializeComponent();
             achatconnection.Open();
             timer3.Start();
-            pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;
-            flowLayoutPanel1.AutoScroll = false;
-            flowLayoutPanel1.Controls.Add(pictureBox3);
-            flowLayoutPanel1.HorizontalScroll.Enabled = false;
-            flowLayoutPanel1.AutoScroll = true;
-            poker.Visible = false;
-            roulette.Visible = false;
+            //pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;
+            //flowLayoutPanel1.AutoScroll = false;
+            //flowLayoutPanel1.Controls.Add(pictureBox3);
+            //flowLayoutPanel1.HorizontalScroll.Enabled = false;
+           // flowLayoutPanel1.AutoScroll = true;
+            ROULETTE.Visible = false;
+            
         }
         
 
@@ -250,8 +250,8 @@ namespace WindowsFormsApp1
         {
             //options
 
-            panel1.Visible = false;
-            flowLayoutPanel1.Visible = false;
+            //panel1.Visible = false;
+            //flowLayoutPanel1.Visible = false;
             vippanel.Visible = false;
             jeuxpanel.Visible = false;
             contactpanel.Visible = false;
@@ -264,8 +264,8 @@ namespace WindowsFormsApp1
         {
             // premium
 
-            panel1.Visible = false;
-            flowLayoutPanel1.Visible = false;
+            //panel1.Visible = false;
+            //flowLayoutPanel1.Visible = false;
             vippanel.Visible = false;
             jeuxpanel.Visible = true;
             contactpanel.Visible = false;
@@ -278,8 +278,8 @@ namespace WindowsFormsApp1
         {
             //convertir
 
-            panel1.Visible = false;
-            flowLayoutPanel1.Visible = false;
+            //panel1.Visible = false;
+            //flowLayoutPanel1.Visible = false;
             vippanel.Visible = true;
             jeuxpanel.Visible = false;
             contactpanel.Visible = false;
@@ -295,8 +295,8 @@ namespace WindowsFormsApp1
         {
             //contact
 
-            panel1.Visible = false;
-            flowLayoutPanel1.Visible = false;
+            //panel1.Visible = false;
+            //flowLayoutPanel1.Visible = false;
             vippanel.Visible = false;
             jeuxpanel.Visible = false;
             contactpanel.Visible = true;
@@ -307,8 +307,8 @@ namespace WindowsFormsApp1
         {
             //informations
 
-            panel1.Visible = true;
-            flowLayoutPanel1.Visible = true;
+            //panel1.Visible = true;
+            //flowLayoutPanel1.Visible = true;
             vippanel.Visible = false;
             jeuxpanel.Visible = false;
             contactpanel.Visible = false;
@@ -890,11 +890,6 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TcpClient client = new TcpClient(Form5.ip, 9856);
-            NetworkStream n = client.GetStream();
-            string msg = "WithdrawRequest:|" + Form5.mailstr + "|"+ solde.ToString();
-            byte[] message = Encoding.Unicode.GetBytes(msg);
-            n.Write(message, 0, message.Length);
             
         }
 
@@ -915,12 +910,40 @@ namespace WindowsFormsApp1
 
         private void bunifuImageButton22_Click_1(object sender, EventArgs e)
         {
-            poker.Visible = true;
+            ROULETTE.Visible = true;
         }
 
         private void bunifuThinButton23_Click_1(object sender, EventArgs e)
         {
-            poker.Visible = false;
+            ROULETTE.Visible = false;
+        }
+
+        private void bunifuThinButton25_Click_1(object sender, EventArgs e)
+        {
+            TcpClient client = new TcpClient(Form5.ip, 9856);
+            NetworkStream n = client.GetStream();
+            string msg = "WithdrawRequest:|" + Form5.mailstr + "|" + solde.ToString();
+            byte[] message = Encoding.Unicode.GetBytes(msg);
+            n.Write(message, 0, message.Length);
+
+            byte[] buffer = new byte[client.ReceiveBufferSize];
+            int data = n.Read(buffer, 0, client.ReceiveBufferSize);
+            string msgs = Encoding.Unicode.GetString(buffer, 0, data);
+
+            if (msgs == "withdrawsucces")
+            {
+                Form6 frm = new Form6();
+                Form1.notif = "retraitsucces";
+                frm.Show();
+
+            }
+            if (msgs == "alreadywithdraw")
+            {
+                Form6 frm = new Form6();
+                Form1.notif = "alreadyretrait";
+                frm.Show();
+
+            }
         }
     }
     }

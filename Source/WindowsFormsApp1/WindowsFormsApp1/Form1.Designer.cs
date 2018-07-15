@@ -74,7 +74,6 @@
             this.bunifuImageButton14 = new Bunifu.Framework.UI.BunifuImageButton();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.moncomptepanel = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.soldecompte = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.vipcompte = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -87,15 +86,10 @@
             this.bunifuImageButton20 = new Bunifu.Framework.UI.BunifuImageButton();
             this.resetmdpbut = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.bunifuImageButton9 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton10 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton11 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.poker = new System.Windows.Forms.Panel();
-            this.roulette = new System.Windows.Forms.Panel();
+            this.ROULETTE = new System.Windows.Forms.Panel();
+            this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.PanelAnimator2 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.bunifuFormFadeTransition1 = new Bunifu.Framework.UI.BunifuFormFadeTransition(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -109,8 +103,7 @@
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.timer4 = new System.Windows.Forms.Timer(this.components);
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.sidemenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menu)).BeginInit();
             this.header.SuspendLayout();
@@ -141,14 +134,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton11)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.poker.SuspendLayout();
+            this.ROULETTE.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -823,8 +810,9 @@
             this.jeuxpanel.Controls.Add(this.bunifuImageButton22);
             this.jeuxpanel.Controls.Add(this.label1);
             this.jeuxpanel.Controls.Add(this.bunifuImageButton12);
-            this.jeuxpanel.Controls.Add(this.bunifuImageButton13);
             this.jeuxpanel.Controls.Add(this.bunifuImageButton14);
+            this.jeuxpanel.Controls.Add(this.bunifuImageButton13);
+            this.jeuxpanel.Controls.Add(this.pictureBox6);
             this.jeuxpanel.Controls.Add(this.pictureBox4);
             this.PanelAnimator2.SetDecoration(this.jeuxpanel, BunifuAnimatorNS.DecorationType.None);
             this.PanelAnimator.SetDecoration(this.jeuxpanel, BunifuAnimatorNS.DecorationType.None);
@@ -931,7 +919,7 @@
             // moncomptepanel
             // 
             this.moncomptepanel.BackColor = System.Drawing.SystemColors.Control;
-            this.moncomptepanel.Controls.Add(this.button1);
+            this.moncomptepanel.Controls.Add(this.bunifuThinButton25);
             this.moncomptepanel.Controls.Add(this.bunifuThinButton22);
             this.moncomptepanel.Controls.Add(this.soldecompte);
             this.moncomptepanel.Controls.Add(this.vipcompte);
@@ -950,18 +938,6 @@
             this.moncomptepanel.Name = "moncomptepanel";
             this.moncomptepanel.Size = new System.Drawing.Size(942, 668);
             this.moncomptepanel.TabIndex = 7;
-            // 
-            // button1
-            // 
-            this.PanelAnimator.SetDecoration(this.button1, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator2.SetDecoration(this.button1, BunifuAnimatorNS.DecorationType.None);
-            this.button1.Location = new System.Drawing.Point(616, 244);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // bunifuThinButton22
             // 
@@ -1165,96 +1141,6 @@
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // bunifuImageButton9
-            // 
-            this.bunifuImageButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.bunifuImageButton9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PanelAnimator2.SetDecoration(this.bunifuImageButton9, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.bunifuImageButton9, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuImageButton9.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton9.Image")));
-            this.bunifuImageButton9.ImageActive = null;
-            this.bunifuImageButton9.Location = new System.Drawing.Point(373, 42);
-            this.bunifuImageButton9.Name = "bunifuImageButton9";
-            this.bunifuImageButton9.Size = new System.Drawing.Size(40, 39);
-            this.bunifuImageButton9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton9.TabIndex = 9;
-            this.bunifuImageButton9.TabStop = false;
-            this.bunifuImageButton9.Zoom = 10;
-            this.bunifuImageButton9.Click += new System.EventHandler(this.bunifuImageButton9_Click);
-            // 
-            // bunifuImageButton10
-            // 
-            this.bunifuImageButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.bunifuImageButton10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PanelAnimator2.SetDecoration(this.bunifuImageButton10, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.bunifuImageButton10, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuImageButton10.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton10.Image")));
-            this.bunifuImageButton10.ImageActive = null;
-            this.bunifuImageButton10.Location = new System.Drawing.Point(456, 42);
-            this.bunifuImageButton10.Name = "bunifuImageButton10";
-            this.bunifuImageButton10.Size = new System.Drawing.Size(40, 39);
-            this.bunifuImageButton10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton10.TabIndex = 10;
-            this.bunifuImageButton10.TabStop = false;
-            this.bunifuImageButton10.Zoom = 10;
-            this.bunifuImageButton10.Click += new System.EventHandler(this.bunifuImageButton10_Click);
-            // 
-            // bunifuImageButton11
-            // 
-            this.bunifuImageButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.bunifuImageButton11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PanelAnimator2.SetDecoration(this.bunifuImageButton11, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.bunifuImageButton11, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuImageButton11.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton11.Image")));
-            this.bunifuImageButton11.ImageActive = null;
-            this.bunifuImageButton11.Location = new System.Drawing.Point(536, 42);
-            this.bunifuImageButton11.Name = "bunifuImageButton11";
-            this.bunifuImageButton11.Size = new System.Drawing.Size(40, 39);
-            this.bunifuImageButton11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton11.TabIndex = 11;
-            this.bunifuImageButton11.TabStop = false;
-            this.bunifuImageButton11.Zoom = 10;
-            this.bunifuImageButton11.Click += new System.EventHandler(this.bunifuImageButton11_Click);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox3);
-            this.PanelAnimator2.SetDecoration(this.flowLayoutPanel1, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.flowLayoutPanel1, BunifuAnimatorNS.DecorationType.None);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(334, 54);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(942, 582);
-            this.flowLayoutPanel1.TabIndex = 16;
-            this.flowLayoutPanel1.WrapContents = false;
-            // 
-            // pictureBox3
-            // 
-            this.PanelAnimator.SetDecoration(this.pictureBox3, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator2.SetDecoration(this.pictureBox3, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(936, 503);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.bunifuImageButton10);
-            this.panel1.Controls.Add(this.bunifuImageButton11);
-            this.panel1.Controls.Add(this.bunifuImageButton9);
-            this.panel1.Controls.Add(this.pictureBox6);
-            this.PanelAnimator2.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(334, 622);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(942, 100);
-            this.panel1.TabIndex = 0;
-            // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -1262,33 +1148,79 @@
             this.PanelAnimator.SetDecoration(this.pictureBox6, BunifuAnimatorNS.DecorationType.None);
             this.PanelAnimator2.SetDecoration(this.pictureBox6, BunifuAnimatorNS.DecorationType.None);
             this.pictureBox6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.ErrorImage")));
-            this.pictureBox6.Location = new System.Drawing.Point(0, -3);
+            this.pictureBox6.Location = new System.Drawing.Point(0, 566);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(942, 102);
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
             // 
-            // poker
+            // ROULETTE
             // 
-            this.poker.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("poker.BackgroundImage")));
-            this.poker.Controls.Add(this.bunifuThinButton24);
-            this.poker.Controls.Add(this.bunifuThinButton23);
-            this.PanelAnimator2.SetDecoration(this.poker, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.poker, BunifuAnimatorNS.DecorationType.None);
-            this.poker.Location = new System.Drawing.Point(0, 54);
-            this.poker.Name = "poker";
-            this.poker.Size = new System.Drawing.Size(1276, 668);
-            this.poker.TabIndex = 18;
-            this.poker.Paint += new System.Windows.Forms.PaintEventHandler(this.poker_Paint);
+            this.ROULETTE.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ROULETTE.BackgroundImage")));
+            this.ROULETTE.Controls.Add(this.bunifuThinButton24);
+            this.ROULETTE.Controls.Add(this.bunifuThinButton23);
+            this.PanelAnimator2.SetDecoration(this.ROULETTE, BunifuAnimatorNS.DecorationType.None);
+            this.PanelAnimator.SetDecoration(this.ROULETTE, BunifuAnimatorNS.DecorationType.None);
+            this.ROULETTE.Location = new System.Drawing.Point(0, 54);
+            this.ROULETTE.Name = "ROULETTE";
+            this.ROULETTE.Size = new System.Drawing.Size(1276, 668);
+            this.ROULETTE.TabIndex = 18;
+            this.ROULETTE.Paint += new System.Windows.Forms.PaintEventHandler(this.poker_Paint);
             // 
-            // roulette
+            // bunifuThinButton24
             // 
-            this.PanelAnimator2.SetDecoration(this.roulette, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.roulette, BunifuAnimatorNS.DecorationType.None);
-            this.roulette.Location = new System.Drawing.Point(0, 54);
-            this.roulette.Name = "roulette";
-            this.roulette.Size = new System.Drawing.Size(1276, 668);
-            this.roulette.TabIndex = 0;
+            this.bunifuThinButton24.ActiveBorderThickness = 1;
+            this.bunifuThinButton24.ActiveCornerRadius = 20;
+            this.bunifuThinButton24.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton24.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton24.BackgroundImage")));
+            this.bunifuThinButton24.ButtonText = "Jouer";
+            this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PanelAnimator2.SetDecoration(this.bunifuThinButton24, BunifuAnimatorNS.DecorationType.None);
+            this.PanelAnimator.SetDecoration(this.bunifuThinButton24, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuThinButton24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton24.IdleBorderThickness = 1;
+            this.bunifuThinButton24.IdleCornerRadius = 20;
+            this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton24.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton24.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton24.Location = new System.Drawing.Point(997, 520);
+            this.bunifuThinButton24.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton24.Name = "bunifuThinButton24";
+            this.bunifuThinButton24.Size = new System.Drawing.Size(118, 40);
+            this.bunifuThinButton24.TabIndex = 18;
+            this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuThinButton23
+            // 
+            this.bunifuThinButton23.ActiveBorderThickness = 1;
+            this.bunifuThinButton23.ActiveCornerRadius = 20;
+            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.bunifuThinButton23.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
+            this.bunifuThinButton23.ButtonText = "Retour";
+            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PanelAnimator2.SetDecoration(this.bunifuThinButton23, BunifuAnimatorNS.DecorationType.None);
+            this.PanelAnimator.SetDecoration(this.bunifuThinButton23, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuThinButton23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton23.IdleBorderThickness = 1;
+            this.bunifuThinButton23.IdleCornerRadius = 20;
+            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(74)))), ((int)(((byte)(92)))));
+            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(74)))), ((int)(((byte)(92)))));
+            this.bunifuThinButton23.Location = new System.Drawing.Point(1144, 520);
+            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton23.Name = "bunifuThinButton23";
+            this.bunifuThinButton23.Size = new System.Drawing.Size(118, 40);
+            this.bunifuThinButton23.TabIndex = 17;
+            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton23.Click += new System.EventHandler(this.bunifuThinButton23_Click_1);
             // 
             // PanelAnimator2
             // 
@@ -1365,60 +1297,33 @@
             // 
             this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
             // 
-            // bunifuThinButton23
+            // bunifuThinButton25
             // 
-            this.bunifuThinButton23.ActiveBorderThickness = 1;
-            this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.bunifuThinButton23.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "Retour";
-            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PanelAnimator2.SetDecoration(this.bunifuThinButton23, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.bunifuThinButton23, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.IdleBorderThickness = 1;
-            this.bunifuThinButton23.IdleCornerRadius = 20;
-            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(74)))), ((int)(((byte)(92)))));
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(74)))), ((int)(((byte)(92)))));
-            this.bunifuThinButton23.Location = new System.Drawing.Point(1144, 520);
-            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton23.Name = "bunifuThinButton23";
-            this.bunifuThinButton23.Size = new System.Drawing.Size(118, 40);
-            this.bunifuThinButton23.TabIndex = 17;
-            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton23.Click += new System.EventHandler(this.bunifuThinButton23_Click_1);
-            // 
-            // bunifuThinButton24
-            // 
-            this.bunifuThinButton24.ActiveBorderThickness = 1;
-            this.bunifuThinButton24.ActiveCornerRadius = 20;
-            this.bunifuThinButton24.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton24.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton24.BackgroundImage")));
-            this.bunifuThinButton24.ButtonText = "Jouer";
-            this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PanelAnimator2.SetDecoration(this.bunifuThinButton24, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.bunifuThinButton24, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton24.IdleBorderThickness = 1;
-            this.bunifuThinButton24.IdleCornerRadius = 20;
-            this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton24.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton24.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton24.Location = new System.Drawing.Point(997, 520);
-            this.bunifuThinButton24.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton24.Name = "bunifuThinButton24";
-            this.bunifuThinButton24.Size = new System.Drawing.Size(118, 40);
-            this.bunifuThinButton24.TabIndex = 18;
-            this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton25.ActiveBorderThickness = 1;
+            this.bunifuThinButton25.ActiveCornerRadius = 20;
+            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(135)))));
+            this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(135)))));
+            this.bunifuThinButton25.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
+            this.bunifuThinButton25.ButtonText = "Retirer mes crédits";
+            this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PanelAnimator2.SetDecoration(this.bunifuThinButton25, BunifuAnimatorNS.DecorationType.None);
+            this.PanelAnimator.SetDecoration(this.bunifuThinButton25, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuThinButton25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton25.ForeColor = System.Drawing.Color.White;
+            this.bunifuThinButton25.IdleBorderThickness = 1;
+            this.bunifuThinButton25.IdleCornerRadius = 20;
+            this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.bunifuThinButton25.Location = new System.Drawing.Point(616, 240);
+            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton25.Name = "bunifuThinButton25";
+            this.bunifuThinButton25.Size = new System.Drawing.Size(181, 41);
+            this.bunifuThinButton25.TabIndex = 24;
+            this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton25.Click += new System.EventHandler(this.bunifuThinButton25_Click_1);
             // 
             // Form1
             // 
@@ -1426,11 +1331,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1276, 722);
-            this.Controls.Add(this.poker);
+            this.Controls.Add(this.ROULETTE);
             this.Controls.Add(this.jeuxpanel);
-            this.Controls.Add(this.roulette);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.moncomptepanel);
             this.Controls.Add(this.sidemenu);
             this.Controls.Add(this.vippanel);
@@ -1479,14 +1381,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton11)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.poker.ResumeLayout(false);
+            this.ROULETTE.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1533,9 +1429,6 @@
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton8;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton7;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton5;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton9;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton10;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton11;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton12;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton13;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton14;
@@ -1561,17 +1454,13 @@
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Timer timer4;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton22;
-        private System.Windows.Forms.Panel poker;
-        private System.Windows.Forms.Panel roulette;
+        private System.Windows.Forms.Panel ROULETTE;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton24;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton25;
     }
 }
 

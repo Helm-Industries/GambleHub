@@ -70,9 +70,24 @@ namespace WindowsFormsApp1
             if (Form1.notif == "joinsuccess")
             {
                 pictureBox2.Image = Properties.Resources.Checkmark_64px;
-                this.BackColor = Color.FromArgb(0, 102, 204);
+                this.BackColor = Color.SeaGreen;
                 bunifuCustomLabel1.Text = "Rejoind avec succès !";
             }
+            if (Form1.notif == "retraitsucces")
+            {
+                pictureBox2.Image = Properties.Resources.Checkmark_64px;
+                this.BackColor = Color.SeaGreen;
+                bunifuCustomLabel1.Text = "Retrait demandé !";
+            }
+            if (Form1.notif == "alreadyretrait")
+            {
+                pictureBox2.Image = Properties.Resources.Checkmark_64px;
+                this.BackColor = Color.Brown;
+                bunifuCustomLabel1.Text = "Retrait déjà en cours !";
+            }
+
+
+
 
 
 
