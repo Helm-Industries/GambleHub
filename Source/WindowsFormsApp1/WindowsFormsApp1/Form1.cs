@@ -100,6 +100,8 @@ namespace WindowsFormsApp1
             }
             emailcompte.Text = splitter[6];
             soldecompte.Text = splitter[7];
+            n.Close();
+            client.Close();
         }
 
         public Form1()
@@ -114,7 +116,7 @@ namespace WindowsFormsApp1
             //flowLayoutPanel1.HorizontalScroll.Enabled = false;
            // flowLayoutPanel1.AutoScroll = true;
             ROULETTE.Visible = false;
-            
+            info();
         }
         
 
@@ -164,7 +166,33 @@ namespace WindowsFormsApp1
 
 
 
+        public void withdrawrequest()
+        {
+            TcpClient client = new TcpClient(Form5.ip, 9856);
+            NetworkStream n = client.GetStream();
+            string msg = "WithdrawRequest:|" + Form5.mailstr + "|" + solde.ToString();
+            byte[] message = Encoding.Unicode.GetBytes(msg);
+            n.Write(message, 0, message.Length);
 
+            byte[] buffer = new byte[client.ReceiveBufferSize];
+            int data = n.Read(buffer, 0, client.ReceiveBufferSize);
+            string msgs = Encoding.Unicode.GetString(buffer, 0, data);
+
+            if (msgs == "withdrawsucces")
+            {
+                Form6 frm = new Form6();
+                Form1.notif = "retraitsucces";
+                frm.Show();
+
+            }
+            if (msgs == "alreadywithdraw")
+            {
+                Form6 frm = new Form6();
+                Form1.notif = "alreadyretrait";
+                frm.Show();
+
+            }
+        }
 
         protected override void WndProc(ref Message m)
         {
@@ -920,30 +948,12 @@ namespace WindowsFormsApp1
 
         private void bunifuThinButton25_Click_1(object sender, EventArgs e)
         {
-            TcpClient client = new TcpClient(Form5.ip, 9856);
-            NetworkStream n = client.GetStream();
-            string msg = "WithdrawRequest:|" + Form5.mailstr + "|" + solde.ToString();
-            byte[] message = Encoding.Unicode.GetBytes(msg);
-            n.Write(message, 0, message.Length);
+            withdrawrequest();
+        }
 
-            byte[] buffer = new byte[client.ReceiveBufferSize];
-            int data = n.Read(buffer, 0, client.ReceiveBufferSize);
-            string msgs = Encoding.Unicode.GetString(buffer, 0, data);
-
-            if (msgs == "withdrawsucces")
-            {
-                Form6 frm = new Form6();
-                Form1.notif = "retraitsucces";
-                frm.Show();
-
-            }
-            if (msgs == "alreadywithdraw")
-            {
-                Form6 frm = new Form6();
-                Form1.notif = "alreadyretrait";
-                frm.Show();
-
-            }
+        private void bunifuThinButton24_Click(object sender, EventArgs e)
+        {
+            
         }
     }
     }

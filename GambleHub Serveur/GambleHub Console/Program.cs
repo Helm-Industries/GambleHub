@@ -604,11 +604,11 @@ namespace GambleHub_Console
                                 MySqlCommand addtolist = new MySqlCommand("INSERT INTO retrait(mail, soldecompte, demanderetrait) VALUES('" + splitter[1] + "', '" + solde.ToString() + "', '" + demande.ToString() + "')", connection);
                                 addtolist.ExecuteNonQuery();
 
-                                Console.WriteLine("[" + DateTime.Now + "] " + splitter[1] + " Ajouté à la base de donnée !", Console.ForegroundColor = ConsoleColor.Green);
-
                                 string msgsendinfo = "withdrawsuccess";
                                 byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
                                 stream.Write(messagesendaccept, 0, messagesendaccept.Length);
+                                Console.WriteLine("[" + DateTime.Now + "] " + splitter[1] + " Ajouté à la base de donnée !", Console.ForegroundColor = ConsoleColor.Green);
+
                             }
                             catch
                             {
