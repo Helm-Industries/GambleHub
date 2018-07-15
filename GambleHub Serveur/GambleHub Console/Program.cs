@@ -329,7 +329,8 @@ namespace GambleHub_Console
                 }
                 if (msg.Contains("CreateGame"))
                 {
-
+                   
+                    
                 }
                 if (msg.Contains("EndGame"))
                 {
@@ -341,7 +342,75 @@ namespace GambleHub_Console
                 } // récupère les games avec le tag actif pour que le client les affiche
                 if (msg.Contains("JoinGame"))
                 {
+                    msg.Trim();
+                    string[] splitter = msg.Split('|');
+                    string user = splitter[1];
+                    string jeu = splitter[2];
+                    int rollslots = 8;
+                    int rollmaxslots = 8;
+                    string slots = rollslots.ToString();
+                    string maxslots = "";
+                    string joueurslist = "";
+                    Console.WriteLine("[" + DateTime.Now + "] " + "JoinRequest de " + splitter[1] + "(" + jeu +")", Console.ForegroundColor = ConsoleColor.Gray);
+                    if (jeu == "roulette")
+                    {
 
+
+                                    if (rollslots > 0)
+                                    {
+                                        rollslots--;
+                                        MySqlCommand join = new MySqlCommand("UPDATE games SET joueurs = '" + joueurslist + user + "/" + "', slots = '" + rollslots.ToString() + "' WHERE id = '1' AND auteur = 'Administrateur' AND jeu = 'roulette'", connection);
+                                        try
+                                        {
+                                            join.ExecuteNonQuery();
+                                            Console.WriteLine("[" + DateTime.Now + "] " + "Le joueur " + user + " a rejoind la roulette !", Console.ForegroundColor = ConsoleColor.Cyan);
+                                            string msgsendinfo = "joinsuccess";
+                                            byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
+                                            stream.Write(messagesendaccept, 0, messagesendaccept.Length);
+
+                                MySqlCommand cmd = new MySqlCommand("SELECT * FROM games WHERE jeu = 'roulette'", connection);
+                                using (MySqlDataReader reader = cmd.ExecuteReader())
+                                {
+                                    if (reader.HasRows)
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            int id = (int)reader.GetValue(0);
+                                            string auteur = reader.GetValue(1).ToString();
+                                            jeu = reader.GetValue(2).ToString();
+                                            slots = reader.GetValue(3).ToString();
+                                            maxslots = reader.GetValue(4).ToString();
+                                            joueurslist = reader.GetValue(13).ToString();
+                                            string msgsendinfos = id.ToString() + "|" + auteur + "|" + jeu + "|" + rollslots.ToString() + "|" + rollmaxslots.ToString() + "|" + joueurslist;
+                                            byte[] messagesendaccepts = Encoding.Unicode.GetBytes(msgsendinfos);
+                                            stream.Write(messagesendaccepts, 0, messagesendaccepts.Length);
+                                            Console.WriteLine("[" + DateTime.Now + "] " + "Sent : " + msgsendinfos, Console.ForegroundColor = ConsoleColor.Gray);
+                                            rollslots = int.Parse(slots);
+                                            rollmaxslots = int.Parse(maxslots);
+                                        }
+                                    }
+                                }
+                                        }
+                                        catch(Exception e)
+                                        {
+                                            Console.WriteLine("[" + DateTime.Now + "] " + "Erreur, impossible de rejoindre la roulette ! " + e.ToString(), Console.ForegroundColor = ConsoleColor.Red);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("[" + DateTime.Now + "] " + "Erreur, roulette pleine !", Console.ForegroundColor = ConsoleColor.Red);
+                                        string msgsendinfo = "joinfull";
+                                        byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
+                                        stream.Write(messagesendaccept, 0, messagesendaccept.Length);
+                                    }
+                                    
+
+                               
+                           
+                        
+                        
+                        
+                    }
                 }
                 if (msg.Contains("BuyRankVIP"))
                 {
@@ -545,6 +614,8 @@ namespace GambleHub_Console
                         }
                     }
                 }
+                
+
                 
             }
         }
