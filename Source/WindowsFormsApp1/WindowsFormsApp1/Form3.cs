@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
         public Form5()
         {
             InitializeComponent();
-            
+            mailstr = textBox_username.Text;
         }
 
        
