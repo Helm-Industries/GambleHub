@@ -605,11 +605,17 @@ namespace GambleHub_Console
                                 addtolist.ExecuteNonQuery();
 
                                 Console.WriteLine("[" + DateTime.Now + "] " + splitter[1] + " Ajouté à la base de donnée !", Console.ForegroundColor = ConsoleColor.Green);
+
+                                string msgsendinfo = "withdrawsuccess";
+                                byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
+                                stream.Write(messagesendaccept, 0, messagesendaccept.Length);
                             }
                             catch
                             {
                                 Console.WriteLine("[" + DateTime.Now + "] " + splitter[1] + " Une demande de retrait est déjà en cour !", Console.ForegroundColor = ConsoleColor.Red);
-
+                                string msgsendinfo = "alreadywithdraw";
+                                byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
+                                stream.Write(messagesendaccept, 0, messagesendaccept.Length);
                             }
                         }
                     }
