@@ -27,3 +27,5 @@ ajouter matchmaking tout ça tcp
 
 
 
+// 1 - ijoueur1
+// joueur2lab ijoueur2
