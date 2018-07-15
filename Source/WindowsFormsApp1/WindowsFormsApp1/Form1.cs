@@ -109,9 +109,10 @@ namespace WindowsFormsApp1
             achatconnection.Open();
             timer3.Start();
             pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;
-            flowLayoutPanel1.AutoScroll = true;
+            flowLayoutPanel1.AutoScroll = false;
             flowLayoutPanel1.Controls.Add(pictureBox3);
-           
+            flowLayoutPanel1.HorizontalScroll.Enabled = false;
+            flowLayoutPanel1.AutoScroll = true;
         }
         
 
@@ -438,7 +439,7 @@ namespace WindowsFormsApp1
 
         private void bunifuImageButton5_Click(object sender, EventArgs e)
         {
-            Process.Start("https://discord.gg/MxMhMpG");
+            Process.Start("https://discord.gg/UzbmRGJ");
         }
 
         private void bunifuImageButton7_Click(object sender, EventArgs e)
@@ -453,12 +454,12 @@ namespace WindowsFormsApp1
 
         private void bunifuImageButton9_Click(object sender, EventArgs e)
         {
-            Process.Start("https://discord.gg/MxMhMpG");
+            Process.Start("https://discord.gg/UzbmRGJ");
         }
 
         private void bunifuImageButton12_Click(object sender, EventArgs e)
         {
-            Process.Start("https://discord.gg/MxMhMpG");
+            Process.Start("https://discord.gg/UzbmRGJ");
         }
 
         private void bunifuImageButton13_Click(object sender, EventArgs e)
@@ -473,7 +474,7 @@ namespace WindowsFormsApp1
 
         private void bunifuImageButton15_Click(object sender, EventArgs e)
         {
-            Process.Start("https://discord.gg/MxMhMpG");
+            Process.Start("https://discord.gg/UzbmRGJ");
         }
 
         private void bunifuImageButton16_Click(object sender, EventArgs e)
@@ -498,7 +499,7 @@ namespace WindowsFormsApp1
 
         private void bunifuImageButton18_Click(object sender, EventArgs e)
         {
-            Process.Start("https://discord.gg/MxMhMpG");
+            Process.Start("https://discord.gg/UzbmRGJ");
         }
 
         private void bunifuImageButton19_Click(object sender, EventArgs e)
