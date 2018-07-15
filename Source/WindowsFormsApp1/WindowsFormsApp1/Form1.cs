@@ -113,6 +113,8 @@ namespace WindowsFormsApp1
             flowLayoutPanel1.Controls.Add(pictureBox3);
             flowLayoutPanel1.HorizontalScroll.Enabled = false;
             flowLayoutPanel1.AutoScroll = true;
+            poker.Visible = false;
+            roulette.Visible = false;
         }
         
 
@@ -904,6 +906,21 @@ namespace WindowsFormsApp1
         private void pictureBox3_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void poker_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void bunifuImageButton22_Click_1(object sender, EventArgs e)
+        {
+            poker.Visible = true;
+        }
+
+        private void bunifuThinButton23_Click_1(object sender, EventArgs e)
+        {
+            poker.Visible = false;
         }
     }
     }
