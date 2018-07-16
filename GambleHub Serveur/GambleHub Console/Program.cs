@@ -88,16 +88,20 @@ namespace GambleHub_Console
 
                 _client.Log += Log;
                 _client.MessageReceived += MessageReceived;
-
+                _client.UserJoined += UserJoineds;
                 string token = "NDY1OTQ5MTEzNjMyOTQ4MjI0.DipQdA.NhiHPATq34wlZhOeSFhBfUD10Vo"; // Remember to keep this private!
                 await _client.LoginAsync(TokenType.Bot, token);
                 await _client.StartAsync();
               
-
+                
         // Block this task until the program is closed.
         await Task.Delay(-1);
             }
 
+            async Task UserJoineds(SocketGuildUser user)
+            {
+              
+            }
              async Task MessageReceived(SocketMessage message)
              {
                 
@@ -175,15 +179,19 @@ namespace GambleHub_Console
                 return Task.CompletedTask;
              }
 
-             
+            
+
+
+            
 
             
 
             Console.WriteLine("Bot Discord démarré");
             while (refresh == 1)
             {
-
+                
                 Console.Title = "GAMBLEHUB - SERVEUR | PORT 9856 | JOUEURS EN LIGNE : " + joueurs.ToString();
+                
 
                 TcpClient client = listen.AcceptTcpClient();
                 NetworkStream stream = client.GetStream();
@@ -191,6 +199,8 @@ namespace GambleHub_Console
                 int data = stream.Read(buffer, 0, client.ReceiveBufferSize);
                 string msg = Encoding.Unicode.GetString(buffer, 0, data);
                 Console.WriteLine("Received : " + msg, Console.ForegroundColor = ConsoleColor.Cyan);
+
+                
                 if (msg.Contains("AuthRequest"))
                 {
                     // exemple : AuthRequest:|mail@gmail.com|alexandre    
@@ -207,13 +217,43 @@ namespace GambleHub_Console
                     if (table.Rows.Count > 0)
                     {
                         //bon send msg
-                        Console.WriteLine("[" + DateTime.Now + "] " + "Sent : Connexion acceptée", Console.ForegroundColor = ConsoleColor.Green);
+                        
                         try
                         {
+                            MySqlCommand verifban = new MySqlCommand("SELECT ban FROM users WHERE email = '" + spliter[1] + "'", connection);
+                            using(MySqlDataReader reader = verifban.ExecuteReader())
+                            {
+                                if (reader.HasRows)
+                                {
+                                    if (reader.Read())
+                                    {
+                                        string ban = reader.GetValue(0).ToString();
+                                        if(ban == "0")
+                                        {
+                                            string msgsendinfo = "Connexion acceptée";
+                                            byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
+                                            stream.Write(messagesendaccept, 0, messagesendaccept.Length);
+                                            Console.WriteLine("[" + DateTime.Now + "] " + "Sent : Connexion acceptée", Console.ForegroundColor = ConsoleColor.Green);
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("[" + DateTime.Now + "] " + "Sent : Connexion refusée (compte banni)", Console.ForegroundColor = ConsoleColor.Red);
+                                            try
+                                            {
 
-                            string msgsendinfo = "Connexion acceptée";
-                            byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
-                            stream.Write(messagesendaccept, 0, messagesendaccept.Length);
+                                                string msgsendinfo = "Connexion refusée";
+                                                byte[] messagesendrefuse = Encoding.Unicode.GetBytes(msgsendinfo);
+                                                stream.Write(messagesendrefuse, 0, messagesendrefuse.Length);
+                                            }
+                                            catch
+                                            {
+                                                Console.WriteLine("[" + DateTime.Now + "] " + "Impossible d'envoyer la réponse...", Console.ForegroundColor = ConsoleColor.Red);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            
                         }
                         catch
                         {
@@ -620,6 +660,7 @@ namespace GambleHub_Console
                         }
                     }
                 }
+
                 
 
                 

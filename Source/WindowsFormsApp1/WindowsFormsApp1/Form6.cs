@@ -18,6 +18,8 @@ namespace WindowsFormsApp1
         public Form6()
         {
             InitializeComponent();
+            this.TopMost = true;
+            
         }
 
         private void Form6_Load(object sender, EventArgs e)
@@ -86,31 +88,16 @@ namespace WindowsFormsApp1
                 bunifuCustomLabel1.Text = "Retrait déjà en cours !";
             }
 
-
-
-
-
-
-
-
-
-
-
-
             Opacity = 0;      //first the opacity is 0
 
             timer1.Interval = 10;  //we'll increase the opacity every 10ms
             timer1.Tick += new EventHandler(fadeIn);  //this calls the function that changes opacity 
             timer1.Start();
-
-        }
-        protected override void OnLoad(EventArgs e)
-        {
-            
             var screen = Screen.FromPoint(this.Location);
             this.Location = new Point(screen.WorkingArea.Right - this.Width - 40, screen.WorkingArea.Top - this.Height + 175);
-            base.OnLoad(e);
+
         }
+
         void fadeIn(object sender, EventArgs e)
         {
             if (Opacity >= 1)
@@ -125,9 +112,9 @@ namespace WindowsFormsApp1
                 Task.Delay(2000).Wait();
                 
 
-                    timer2.Interval = 10;
-                    timer2.Tick += new EventHandler(fadeOut);
-                    timer2.Start();
+                    //timer2.Interval = 10;
+                    //timer2.Tick += new EventHandler(fadeOut);
+                    //timer2.Start();
                 
             }
             else
