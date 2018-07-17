@@ -109,6 +109,7 @@ namespace WindowsFormsApp1
         {
 
             InitializeComponent();
+            info();
             Form8 frms = new Form8();
             frms.Show();
             achatconnection.Open();
@@ -119,7 +120,7 @@ namespace WindowsFormsApp1
             //flowLayoutPanel1.HorizontalScroll.Enabled = false;
            // flowLayoutPanel1.AutoScroll = true;
             ROULETTE.Visible = false;
-            info();
+            
         }
         
 

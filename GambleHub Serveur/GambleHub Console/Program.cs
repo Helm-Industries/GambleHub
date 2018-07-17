@@ -623,7 +623,8 @@ namespace GambleHub_Console
                 string text = "";
                 string touser = "";
                 string allinfos = "";
-                int isnotif = 0;
+
+                int notif = 0;
               
                 if (msg.Contains("WithdrawRequest"))
                 {
@@ -673,6 +674,7 @@ namespace GambleHub_Console
                         }
                     }
                 }
+                
                 if (msg.Contains("SendNotifRequest"))
                 {
                     
@@ -682,31 +684,20 @@ namespace GambleHub_Console
                      string msgsendinfo = "SendNotif|" + touser + "|" + text; //user texte
                     allinfos = msgsendinfo;
                     byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
+                    foreach (var item in client)
+                    {
+
+                    }
                     stream.Write(messagesendaccept, 0, messagesendaccept.Length);
-                    isnotif = 1;
+                   
                     
                 }
-                if(msg.Contains("En attente de notifications"))
+                if (msg.Contains("IsNotif"))
                 {
 
-                    string  msgsendinfo = ""; //user texte
-
-                    if(isnotif == 0)
-                    {
-                        msgsendinfo = "nonotif";
-                    }
-                    else
-                    {
-                        msgsendinfo = allinfos;
-                    }
-                  
-                    byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
-                    stream.Write(messagesendaccept, 0, messagesendaccept.Length);
                 }
-                if(msg.Contains("Notif received"))
-                {
-                    isnotif = 0;
-                }
+               
+             
 
                 
             }
