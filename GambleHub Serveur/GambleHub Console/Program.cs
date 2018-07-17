@@ -198,7 +198,15 @@ namespace GambleHub_Console
                 byte[] buffer = new byte[client.ReceiveBufferSize];
                 int data = stream.Read(buffer, 0, client.ReceiveBufferSize);
                 string msg = Encoding.Unicode.GetString(buffer, 0, data);
-                Console.WriteLine("Received : " + msg, Console.ForegroundColor = ConsoleColor.Cyan);
+                if(msg == "En attente de notifications")
+                {
+
+                }
+                else
+                {
+                    Console.WriteLine("Received : " + msg, Console.ForegroundColor = ConsoleColor.Cyan);
+                }
+                
 
                 
                 if (msg.Contains("AuthRequest"))
@@ -548,7 +556,7 @@ namespace GambleHub_Console
                         goto nxtpart;
                     }
                     nxtpart:
-                    string prenomcmd = "SELECT nom, prenom, sexe, age, vip, balance, email, password FROM users WHERE email='" + usermail + "'";
+                    string prenomcmd = "SELECT nom, prenom, sexe, age, vip, balance, email, password, username FROM users WHERE email='" + usermail + "'";
 
                     MySqlCommand cmds = new MySqlCommand(prenomcmd, connection);
 
@@ -570,7 +578,7 @@ namespace GambleHub_Console
                                 string soldecompte;
                                 string mdp;
                                 int vips;
-
+                                string usernamemdr = reader.GetValue(8).ToString();
                                 nomcompte = reader.GetValue(0).ToString();
                                 prenomcompte = reader.GetValue(1).ToString();
                                 sexe = reader.GetValue(2).ToString();
@@ -585,7 +593,7 @@ namespace GambleHub_Console
                                 soldecompte = solde.ToString() + " Crédits";
                                 mdp = reader.GetValue(7).ToString();
 
-                                string msgsendinfo = "PlayerInfo:|" + nomcompte + "|" + prenomcompte + "|" + sexe + "|" + agecompte + "|" + vips.ToString() + "|" + emailcompte + "|" + soldecompte;
+                                string msgsendinfo = "PlayerInfo:|" + nomcompte + "|" + prenomcompte + "|" + sexe + "|" + agecompte + "|" + vips.ToString() + "|" + emailcompte + "|" + soldecompte + "|" + usernamemdr;
                                 byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
                                 stream.Write(messagesendaccept, 0, messagesendaccept.Length);
                                 Console.WriteLine("[" + DateTime.Now + "] " + "Sent : " + msgsendinfo, Console.ForegroundColor = ConsoleColor.Gray);
@@ -612,6 +620,11 @@ namespace GambleHub_Console
                     }
                    
                 }
+                string text = "";
+                string touser = "";
+                string allinfos = "";
+                int isnotif = 0;
+              
                 if (msg.Contains("WithdrawRequest"))
                 {
                     msg.Trim();
@@ -660,8 +673,40 @@ namespace GambleHub_Console
                         }
                     }
                 }
+                if (msg.Contains("SendNotifRequest"))
+                {
+                    
+                    string[] splitter = msg.Split('|');
+                    touser = splitter[1];
+                    text = splitter[2];
+                     string msgsendinfo = "SendNotif|" + touser + "|" + text; //user texte
+                    allinfos = msgsendinfo;
+                    byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
+                    stream.Write(messagesendaccept, 0, messagesendaccept.Length);
+                    isnotif = 1;
+                    
+                }
+                if(msg.Contains("En attente de notifications"))
+                {
 
-                
+                    string  msgsendinfo = ""; //user texte
+
+                    if(isnotif == 0)
+                    {
+                        msgsendinfo = "nonotif";
+                    }
+                    else
+                    {
+                        msgsendinfo = allinfos;
+                    }
+                  
+                    byte[] messagesendaccept = Encoding.Unicode.GetBytes(msgsendinfo);
+                    stream.Write(messagesendaccept, 0, messagesendaccept.Length);
+                }
+                if(msg.Contains("Notif received"))
+                {
+                    isnotif = 0;
+                }
 
                 
             }

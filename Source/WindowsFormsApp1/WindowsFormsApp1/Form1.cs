@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
         public static int slot;
         public static string winner = "";
         public static int total;
-
+        public static string usernameacc;
         void Form1_Shown(object sender, EventArgs e)
         {
         }
@@ -100,6 +100,7 @@ namespace WindowsFormsApp1
             }
             emailcompte.Text = splitter[6];
             soldecompte.Text = splitter[7];
+            usernameacc = splitter[8];
             n.Close();
             client.Close();
         }
@@ -108,6 +109,8 @@ namespace WindowsFormsApp1
         {
 
             InitializeComponent();
+            Form8 frms = new Form8();
+            frms.Show();
             achatconnection.Open();
             timer3.Start();
             //pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;

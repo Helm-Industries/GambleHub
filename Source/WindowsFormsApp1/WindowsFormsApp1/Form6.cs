@@ -21,9 +21,11 @@ namespace WindowsFormsApp1
             this.TopMost = true;
             
         }
-
+        public static string texte = "";
         private void Form6_Load(object sender, EventArgs e)
         {
+            
+            bunifuCustomLabel1.Text = texte;
             if(Form1.notif == "errorfunds")
             {
                 pictureBox2.Image = Properties.Resources.Delete_64px;

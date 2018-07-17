@@ -191,3 +191,4 @@ F:\GITHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFo
 F:\GITHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 F:\GITHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 F:\GITHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Projets\[VisualStudio]\3. GAMBLEHUB\GambleHub\Source\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form8.resources
