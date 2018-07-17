@@ -110,8 +110,7 @@ namespace WindowsFormsApp1
 
             InitializeComponent();
             info();
-            Form8 frms = new Form8();
-            frms.Show();
+       
             achatconnection.Open();
             timer3.Start();
             //pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;

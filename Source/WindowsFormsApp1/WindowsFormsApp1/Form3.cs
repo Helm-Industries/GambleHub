@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
     {
         public static string mailstr;
         public static string password;
-        public static string ip = "127.0.0.1";
+        public static string ip = "78.114.55.200";
         public Form5()
         {
             InitializeComponent();

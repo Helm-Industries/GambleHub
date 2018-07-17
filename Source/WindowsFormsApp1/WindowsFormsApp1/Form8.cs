@@ -27,33 +27,33 @@ namespace WindowsFormsApp1
 
            
 
-                TcpClient client = new TcpClient("127.0.0.1", 9856);
-                NetworkStream n = client.GetStream();
-                byte[] buffer = new byte[client.ReceiveBufferSize];
-                int data = n.Read(buffer, 0, client.ReceiveBufferSize);
-                string msgs = Encoding.Unicode.GetString(buffer, 0, data);
+            //    TcpClient client = new TcpClient("78.114.55.200", 9856);
+            //    NetworkStream n = client.GetStream();
+            //    byte[] buffer = new byte[client.ReceiveBufferSize];
+            //    int data = n.Read(buffer, 0, client.ReceiveBufferSize);
+            //    string msgs = Encoding.Unicode.GetString(buffer, 0, data);
                 
-                if (msgs.Contains("SendNotifRequest"))
-                {
-                MessageBox.Show(msgs);
-                    string[] splitter = msgs.Split('|');
-                    string id = splitter[0];
-                    string username = splitter[1];
-                    string texte = splitter[2];
-                    Form6 frm = new Form6();
-                    Form6.texte = texte;
-                if (username == Form1.usernameacc)
-                {
-                    frm.Show();
-                }
+            //    if (msgs.Contains("SendNotifRequest"))
+            //    {
+            //    MessageBox.Show(msgs);
+            //        string[] splitter = msgs.Split('|');
+            //        string id = splitter[0];
+            //        string username = splitter[1];
+            //        string texte = splitter[2];
+            //        Form6 frm = new Form6();
+            //        Form6.texte = texte;
+            //    if (username == Form1.usernameacc)
+            //    {
+            //        frm.Show();
+            //    }
 
 
             
-                }
-            else
-            {
+            //    }
+            //else
+            //{
               
-            }
+            //}
 
             
         }
@@ -65,7 +65,7 @@ namespace WindowsFormsApp1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            info();
+            //info();
         }
     }
 }
